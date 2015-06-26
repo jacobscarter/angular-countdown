@@ -1,0 +1,51 @@
+#countdown {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.redballdays,
+.redballseconds,
+.redballhours,
+.redballminutes {
+  float: left;
+  width: 160px;
+  height: 160px;
+  padding: 20px 0;
+  margin-right: 20px;
+  font-size: 80px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  border: 2px solid #be1e2d;
+  border-radius: 100px;
+}
+
+.redballdays:after,
+.redballseconds:after,
+.redballhours:after,
+.redballminutes:after {
+  position: absolute;
+  bottom: -210px;
+  font-size: 22px;
+}
+
+.redballdays:after {
+  left: 55px;
+  content: "Days";
+}
+
+.redballhours:after {
+  left: 232px;
+  content: "Hours";
+}
+
+.redballminutes:after {
+  left: 400px;
+  content: "Minutes";
+}
+
+.redballseconds:after {
+  left: 580px;
+  content: "Seconds";
+}
