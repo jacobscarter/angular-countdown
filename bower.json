@@ -1,5 +1,5 @@
 {
-  "name": "angular-countdown",
+  "name": "angularcountdown",
   "version": "0.1.0",
   "main": "./dist/angular-cron-jobs.min.js",
   "description": "UI Component For Angular 1.x Applications",
