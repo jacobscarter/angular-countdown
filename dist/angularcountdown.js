@@ -1,9 +1,13 @@
 /**
  * UI Component For Angular 1.x Applications
- * @version v0.1.0 - 2015-06-26 * @link https://github.com/jacobscarter/angular-countdown
+ * @version v0.1.1 - 2016-01-07 * @link https://github.com/jacobscarter/angular-countdown
  * @author Jacob Carter <jacob@ieksolutions.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
+'use strict';
+
+angular.module('angular-countdown', ['templates-angularcountdown']);
+
 angular.module('templates-angularcountdown', ['angularcountdown.html']);
 
 angular.module("angularcountdown.html", []).run(["$templateCache", function($templateCache) {
@@ -15,10 +19,6 @@ angular.module("angularcountdown.html", []).run(["$templateCache", function($tem
     "  <div class=\"redballseconds\" id=\"seconds\"></div>\n" +
     "</div>");
 }]);
-
-'use strict';
-
-angular.module('angular-countdown', ['templates-angularcountdown']);
 
 'use strict';
 
