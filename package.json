@@ -2,8 +2,8 @@
   "name": "angularcountdown",
   "description": "UI Component For Angular 1.x Applications",
   "version": "0.1.1",
-  "filename": "angular-countdown.min.js",
-  "main": "./dist/angular-countdown.min.js",
+  "filename": "angularcountdown.min.js",
+  "main": "./dist/angularcountdown.min.js",
   "homepage": "https://github.com/jacobscarter/angular-countdown",
   "author": "Jacob Carter <jacob@ieksolutions.com>",
   "repository": {
